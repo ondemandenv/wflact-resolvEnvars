@@ -5,9 +5,6 @@ author: 'ONDEMANDENV.dev'
 inputs:
   aws_credentials:
     description: ''
-  envar_stackName:
-    required: true
-    description: ''
   trigger_message:
     required: false
     description: ''

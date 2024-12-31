@@ -5,8 +5,14 @@ author: 'ONDEMANDENV.dev'
 inputs:
   aws_credentials:
     description: ''
+    default: ''
   trigger_message:
     required: false
+    default: ''
+    description: ''
+  ghWflPpStackName:
+    required: false
+    default: ''
     description: ''
 
 runs:
